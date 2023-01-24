@@ -50,18 +50,12 @@ public class Amazon {
 				
 		String totalprice = driver.findElement(By.xpath("//span[@class='a-price-whole']")).getText();
 		
-		if (price == totalprice )
-			
-		{
-			System.out.println("TotalPrice Verified, total price is  - " + totalprice);
-		}
+	
+			System.out.println(" price is - " + price + " total price is  - " + totalprice);
+	
 		
-		else
-			
-		{
-			System.out.println("Total price is not matching, price is " +price + " and total price is " + totalprice );
-		}
-		
+	
+		driver.quit();
 		
 	}
 
