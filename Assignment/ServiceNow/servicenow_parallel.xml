@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="ServiceNowAssignment">
+  <test thread-count="5" parallel="classes" name="ServiceNowAssignment" verbose="5">
+    <classes>
+      <class name="week4.Assignment.ServiceNow.ModifyCaller"/>
+      <class name="week4.Assignment.ServiceNow.DeleteCaller"/>
+      <class name="week4.Assignment.ServiceNow.CreateCaller"/>
+      <class name="week4.Assignment.ServiceNow.CreateArticle_Fillmandatoryfields"/>
+      <class name="week4.Assignment.ServiceNow.CreateArticle"/>
+    </classes>
+  </test> <!-- ServiceNowAssignment -->
+</suite> <!-- ServiceNowAssignment -->
